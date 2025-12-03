@@ -1,42 +1,41 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'AgentStack - Cloud-Native Agentic AI Platform',
+        description: "Led architecture and enterprise rollout of AgentStack, a cloud-native agentic AI platform on AWS Lambda, EKS, and API Gateway. Standardized multi-agent design patterns and distributed reasoning across organization. Delivered production-grade chat copilot using LangGraph, LangChain, FastAPI, and LLMs with tool usage, memory, and stepwise reasoning. Built scalable RAG pipelines with hybrid retrieval, semantic re-ranking, and automated AI output testing. Achieved 70% ops effort reduction and $250K+ annual savings.",
+        tools: ['AWS Lambda', 'AWS EKS', 'API Gateway', 'LangGraph', 'LangChain', 'FastAPI', 'Python', 'RAG', 'MLflow', 'Kubernetes', 'Microservices'],
+        role: 'ML Advisor',
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'LLM Fine-tuning Pipeline with RLHF & DPO',
+        description: 'Worked on fine-tuning Mistral-7B LLM for domain-specific question answering using RLHF, DPO, LoRA, QLoRA, and PEFT. Designed end-to-end alignment pipelines addressing challenges in alignment stability and efficient training. Built high-fidelity preference datasets and trained reward models. Applied parameter-efficient techniques reducing fine-tuning compute by ~40%. Achieved 30-45% accuracy improvements and 25%+ boost in preference alignment.',
+        tools: ['Mistral-7B', 'RLHF', 'DPO', 'LoRA', 'QLoRA', 'PEFT', 'TRL', 'Hugging Face Transformers', 'DeepSpeed', 'Accelerate', 'Distributed Training'],
+        role: 'Research Analyst',
         code: '',
         demo: '',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Multi-Agent Orchestration with MCP & A2A',
+        description: 'Implemented Model Context Protocol (MCP) and Agent-to-Agent (A2A) frameworks enabling inter-agent communication and ecosystem interoperability. Built FastAPI-based AI microservices for multi-agent orchestration, tool calling, and distributed state management. Architected secure, versioned REST APIs with OAuth2, IAM, RBAC, rate limits, and zero-trust controls. Optimized LLM cost-performance through prompt engineering and model selection frameworks.',
+        tools: ['LangGraph', 'FastAPI', 'MCP', 'A2A', 'Python', 'AWS', 'Kubernetes', 'OAuth2', 'RBAC', 'Distributed Systems'],
+        role: 'ML Advisor',
         code: '',
-        role: 'Full Stack Developer',
         demo: '',
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Multivariate Time-Series Gesture Recognition System',
+        description: "Built end-to-end 8-class gesture recognition system including ingestion, preprocessing, feature engineering, model training, and low-latency inference. Designed deterministic data pipelines for signal cleaning and transformation. Evaluated multiple ML models using cross-validation and GridSearchCV. Developed FastAPI microservice with async handling and artifact versioning. Implemented production-oriented evaluation tools with confusion matrices and time-series diagnostics.",
+        tools: ['Scikit-learn', 'FastAPI', 'Python', 'Pandas', 'NumPy', 'MLOps', 'REST API', 'Time-Series Analysis', 'Feature Engineering'],
+        role: 'IT Analyst',
         code: '',
         demo: '',
-        role: 'Full Stack Developer',
     }
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below

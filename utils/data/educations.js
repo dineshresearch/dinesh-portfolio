@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "M. Tech in Automotive Electronics",
+    duration: "July 2017 - 2019",
+    institution: "Amrita Vishwa Vidyapeetham, Coimbatore",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "B. Tech in Electronics and Communication",
+    duration: "2010 - 2014",
+    institution: "JNTU Hyderabad",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Microsoft Certified: Azure AI Engineer Associate",
+    duration: "2024",
+    institution: "Microsoft",
   }
 ]
